@@ -59,7 +59,8 @@ group :development, :test do
   gem "guard-bundler"
   gem "rb-fsevent"
   gem "omniauth"
-  gem 'omniauth-facebook', '1.4.0'
+  gem "omniauth-facebook", "1.4.0"
+  gem "rolify"
 end
 
 group :test do
